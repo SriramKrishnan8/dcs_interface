@@ -3,7 +3,8 @@
 THIS IS THE MAIN SCRIPT!
 
 '''
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 import helper_functions,data_loader,model,configuration,defines
 import sys,time,os,json,datetime,shutil

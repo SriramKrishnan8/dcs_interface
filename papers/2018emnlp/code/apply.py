@@ -1,7 +1,9 @@
 '''
 apply a trained model to a text => Create its padapatha form.
 '''
-import tensorflow as tf
+#import tensorflow as tf
+#For making tensorflow.session work
+import tensorflow.compat.v1 as tf
 import configuration,helper_functions,data_loader
 import sys,os
 

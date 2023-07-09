@@ -1,4 +1,5 @@
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import math
 import defines
 
@@ -8,6 +9,7 @@ class Model():
     '''
     def __init__(self, config, n_input, n_classes, n_split_cnts):
         ''' Create the variables '''
+        tf.disable_v2_behavior()
         self.x = tf.placeholder(tf.int64, [None, config['max_sequence_length_sen']], name='inputs')
         '''
         target classes for char-wise Sandhi/compound splitting
