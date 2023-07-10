@@ -49,6 +49,9 @@ This returns the following:
 
 For general usage fields 1,2 and 3 can be used. But for some of the words, the terminal sandhies are not handled. Using the predicted forms also might result into incorrect segmentations. Hence, to validate the segments and also to generate correct segments, an alignment of DCS analyses has been carried out with [Sanskrit Heritage Segmenter's](http://www.sanskrit.inria.fr) analyses at [dcs_sh_alignment](https://github.com/SriramKrishnan8/dcs_sh_alignment)
 
+## Final Data
+
+The DCS sentences, parallel corpus and DCS' JSON data, all generated using the above methods, are available at: [dcs_json](https://drive.google.com/drive/folders/1erKh47n_JJfVeczhrFoOZEXluDiJyD10?usp=sharing)
 
 ## License
 
